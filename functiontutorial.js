@@ -53,15 +53,36 @@
 // console.log(stringToArray("Salisu"))
 
 
-function isPalindrome(str)
-{
-        let newStr=str.split("").reverse().join("")
-            if(str===newStr){
-                return true
-            } else{
-                return false
-            }
+// function isPalindrome(str)
+// {
+//         let newStr=str.split("").reverse().join("")
+//             if(str===newStr){
+//                 return true
+//             } else{
+//                 return false
+//             }
             
-}
-console.log(isPalindrome("fire"))
+// }
+// console.log(isPalindrome("fire"))
+
+
+// let str15="15"
+  
+//  console.log(parseInt(str15))
+
+
+ //interger as an input and check wether is a Palindrome 
+ function intPalindrome(num)
+ {
+     let numToStr=num.toString()
+     let newStr=numToStr.split('').reverse().join('')
+     let backToInt=parseInt(newStr)
+     if (backToInt===backToInt)
+     { return true
+     }else{
+         return false
+     }
+    }
+
+ console.log(intPalindrome(3003))
 
