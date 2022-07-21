@@ -27,7 +27,7 @@
 //         console.log('fail') 
 //      }
 
-const score = 30
+const score = 80
 
 switch (true){
 
@@ -47,13 +47,8 @@ switch (true){
             console.log('pass')
         break;
             case ((score>=30) && (score<40)):
-            console.log('Pass')
+            console.log('fail')
         break;
-        
-        case ((score<=30) && (score<40)):
-            console.log('Pass')
-        break;
-
         default:
             console.log('failed')
         break;
